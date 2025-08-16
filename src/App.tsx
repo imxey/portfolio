@@ -225,7 +225,7 @@ const Portfolio = () => {
                 : "-translate-x-20 opacity-0"
             }`}
           >
-              <h1 className="text-5xl  md:text-7xl font-bold mb-6 text-white">
+              <h1 className="text-5xl text-center md:text-left md:text-7xl font-bold mb-6 text-white">
                 Full Stack Developer
               </h1>
             <div className="text-center md:text-justify">
@@ -586,8 +586,8 @@ const Portfolio = () => {
                 : "translate-y-20 opacity-0"
             }`}
           >
-            Silakan hubungi saya untuk kerja sama maupun diskusi proyek lebih
-            lanjut.
+            Untuk kerja sama maupun diskusi proyek lebih
+            lanjut, silakan hubungi kontak dibawah.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
