@@ -318,7 +318,7 @@ const Portfolio = () => {
                       Politeknik Negeri Jakarta
                     </h4>
                     <p className="text-gray-300">D4 Teknik Informatika</p>
-                    <p className="text-gray-400 text-sm mt-2">
+                    <p className="text-gray-400 text-sm text-justify mt-2">
                       Fokus pada praktik Software Development, Artificial
                       Intelligence, dan Data Science
                     </p>
@@ -554,7 +554,7 @@ const Portfolio = () => {
                       <h4 className="text-white font-semibold mb-3">
                         {exp.organization}
                       </h4>
-                      <p className="text-gray-300 leading-relaxed">
+                      <p className="text-gray-300 text-justify leading-relaxed">
                         {exp.description}
                       </p>
                     </div>
