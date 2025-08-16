@@ -225,10 +225,10 @@ const Portfolio = () => {
                 : "-translate-x-20 opacity-0"
             }`}
           >
-            <div className="text-center md:text-justify">
               <h1 className="text-5xl  md:text-7xl font-bold mb-6 text-white">
                 Full Stack Developer
               </h1>
+            <div className="text-center md:text-justify">
               <p className="text-lg md:text-xl text-gray-300 mb-6 leading-relaxed">
                 Halo! Saya Xeyla Vithra Arfhina, mahasiswa Teknik Informatika
                 semester 5 di Politeknik Negeri Jakarta dengan IPK 3.66. Saya
