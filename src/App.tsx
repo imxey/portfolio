@@ -64,7 +64,7 @@ const Portfolio = () => {
     { id: "home", label: "Home" },
     { id: "tentang", label: "Tentang" },
     { id: "portofolio", label: "Portofolio" },
-    { id: "pengalaman", label: "Pengalaman" },
+    { id: "pengalaman", label: "Organisasi" },
     { id: "kontak", label: "Kontak" },
   ];
 
@@ -73,8 +73,10 @@ const Portfolio = () => {
     "TypeScript",
     "Next.js",
     "Vite.js",
+    "Golang",
     "Laravel",
     "Motoko",
+    "Solidity",
     "Flutter",
     "Tailwind CSS",
   ];
@@ -227,18 +229,18 @@ const Portfolio = () => {
               <h1 className="text-5xl  md:text-7xl font-bold mb-6 text-white">
                 Full Stack Developer
               </h1>
-              <p className="text-xl md:text-2xl text-gray-300 mb-6 leading-relaxed">
-                Halo! Saya seorang Full Stack Developer yang passionate dalam
-                menciptakan solusi teknologi inovatif dan pengalaman digital
-                yang memukau.
+              <p className="text-lg md:text-xl text-gray-300 mb-6 leading-relaxed">
+                Halo! Saya Xeyla Vithra Arfhina, mahasiswa Teknik Informatika
+                semester 5 di Politeknik Negeri Jakarta dengan IPK 3.66. Saya
+                sangat antusias untuk belajar dan bertumbuh, khususnya di bidang
+                pengembangan web.
               </p>
               <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-                Dengan keahlian dalam pengembangan web dan mobile, saya
-                mengkhususkan diri dalam teknologi modern seperti React,
-                TypeScript, Node.js, dan Flutter. Saya senang mengombinasikan
-                kreativitas dalam desain dengan logika pemrograman untuk
-                menciptakan aplikasi yang tidak hanya fungsional tetapi juga
-                menarik secara visual.
+                Dengan keahlian dalam teknologi seperti PHP, React JS, AJAX, dan
+                Laravel, saya mampu bekerja secara teliti, sistematis, dan
+                kolaboratif dalam tim. Saya berkomitmen untuk menciptakan solusi
+                digital yang efektif dan dapat memberikan wawasan berharga bagi
+                organisasi.
               </p>
             </div>
 
