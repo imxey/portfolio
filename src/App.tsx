@@ -393,7 +393,7 @@ const Portfolio = () => {
               ? "-translate-x-20 opacity-0"
               : "translate-x-20 opacity-0"
           }`}
-                style={{ transitionDelay: `${index * 200}ms` }}
+                style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div>
                   <div className="relative overflow-hidden">
@@ -625,7 +625,7 @@ const Portfolio = () => {
 
           <div
             id="social-links"
-            className={`animate-on-scroll mt-12 flex justify-center gap-6 transform transition-all duration-1000 delay-1000 ${
+            className={`animate-on-scroll mt-12 flex justify-center gap-6 transform transition-all duration-1000 delay-100 ${
               visibleElements.has("social-links")
                 ? "translate-y-0 opacity-100"
                 : "translate-y-20 opacity-0"
