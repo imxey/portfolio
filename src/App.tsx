@@ -231,7 +231,7 @@ const Portfolio = () => {
             <div className="text-center md:text-justify">
               <p className="text-lg md:text-xl text-gray-300 mb-6 leading-relaxed">
                 Halo! Saya Xeyla Vithra Arfhina, mahasiswa Teknik Informatika
-                semester 5 di Politeknik Negeri Jakarta dengan IPK 3.66. Saya
+                semester 5 di Politeknik Negeri Jakarta dengan IPK 3.68. Saya
                 sangat antusias untuk belajar dan bertumbuh, khususnya di bidang
                 pengembangan web.
               </p>
