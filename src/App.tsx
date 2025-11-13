@@ -253,7 +253,7 @@ const Portfolio = () => {
             </button>
             <a
               target="blank"
-              href="https://drive.google.com/file/d/1Q-E5xHUxHwaRSe1q3unfiwHvx1Uqk0eb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1O6XQ9rqwPmKH4xbQV3RqZqhx0OEmuvnO/view?usp=sharing"
             >
               <button className="bg-white w-full md:w-1/3 text-black hover:bg-gray-200 mt-8 lg:ml-8 px-15 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
                 Lihat CV
