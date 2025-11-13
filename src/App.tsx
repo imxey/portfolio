@@ -83,8 +83,23 @@ const Portfolio = () => {
 
   const projects = [
     {
+      image: "pemira2025.png",
+      title:
+        "E-Voting Platform for University Student Election (Pemira PNJ 2025)",
+      description:
+        "Memimpin divisi IT untuk pengembangan platform e-voting Pemira 2025, mencakup arsitektur sistem, pengembangan, dan deployment infrastruktur pemilihan mahasiswa.",
+      role: "Tech Leader",
+      tools: ["Figma", "Vite JS", "Golang", "Docker"],
+      process:
+        "Mengawasi seluruh siklus pengembangan, memastikan keamanan, skalabilitas, dan integritas data pemilihan. Mengkoordinasikan tim developer dan melakukan integrasi lintas divisi untuk mendukung pelaksanaan Pemira secara transparan dan efisien.",
+      figmaLink: "",
+      repoLink: "",
+      webLink: "https://pemira-front-end.pages.dev/",
+    },
+    {
       image: "pemira.png",
-      title: "E-Voting Platform for University Student Election",
+      title:
+        "E-Voting Platform for University Student Election (Pemira PNJ 2024)",
       description:
         "Merancang dan mengimplementasikan platform web menggunakan Next.js dan ASP.NET untuk memfasilitasi pemilihan badan mahasiswa (BEM, MPM, dan organisasi kemahasiswaan).",
       role: "Frontend Developer",
@@ -123,6 +138,21 @@ const Portfolio = () => {
       repoLink: "https://github.com/imxey/expasign-react",
       webLink: "https://expasign-edutime.site/",
     },
+    {
+      image: "portify.png",
+      title: "Gagasan / Portify - Repository Platform for Campus Projects",
+      description:
+        "Platform repositori terpadu untuk menampilkan portofolio aplikasi hasil Project Based Learning (PBL) dan karya inovasi sivitas PNJ, mencakup mahasiswa maupun dosen. Sistem ini dirancang sebagai katalog digital dengan fitur kurasi, validasi, dan dashboard analitik.",
+      role: "Tech Leader / System Analyst",
+      tools: ["Figma", "laravel + react"],
+      process:
+        "Memimpin perancangan arsitektur sistem dan alur bisnis, mengoordinasikan UI/UX dan tim fullstack, serta memastikan pengembangan fitur utama seperti manajemen produk, kurasi, profil pengguna, dan dashboard analitik berjalan sesuai scope dan kebutuhan stakeholder.",
+      figmaLink:
+        "https://www.figma.com/design/nmzzyRTFCXHHVwEDpH03fD/Gagasan---Portify?node-id=0-1&t=a1fyTreGq1olSFWx-1",
+      repoLink: "",
+      webLink: "",
+    },
+
     {
       image: "splitBill.png",
       title: "Poolit - Blockchain-based Split Bill App",
@@ -225,9 +255,9 @@ const Portfolio = () => {
                 : "-translate-x-20 opacity-0"
             }`}
           >
-              <h1 className="text-5xl text-center md:text-left md:text-7xl font-bold mb-6 text-white">
-                Full Stack Developer
-              </h1>
+            <h1 className="text-5xl text-center md:text-left md:text-7xl font-bold mb-6 text-white">
+              Full Stack Developer
+            </h1>
             <div className="text-center md:text-justify">
               <p className="text-lg md:text-xl text-gray-300 mb-6 leading-relaxed">
                 Halo! Saya Xeyla Vithra Arfhina, mahasiswa Teknik Informatika
@@ -380,7 +410,8 @@ const Portfolio = () => {
             Portofolio
           </h2>
 
-          <div className="grid md:grid-cols-2  lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:[&>*:nth-last-child(-n+2):nth-child(4n+1)]:col-start-2">
+            {" "}
             {projects.map((project, index) => (
               <div
                 key={index}
@@ -586,8 +617,8 @@ const Portfolio = () => {
                 : "translate-y-20 opacity-0"
             }`}
           >
-            Untuk kerja sama maupun diskusi proyek lebih
-            lanjut, silakan hubungi kontak dibawah.
+            Untuk kerja sama maupun diskusi proyek lebih lanjut, silakan hubungi
+            kontak dibawah.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
